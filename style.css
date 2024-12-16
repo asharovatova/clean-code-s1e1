@@ -27,14 +27,14 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.task.task_new {
+  display: flex;
+}
 .task__input,
 .task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-}
-.task_new {
-  display: flex;
 }
 ul {
   margin: 0;
@@ -87,12 +87,12 @@ button{
 }
 
 /* New Task */
-.section__heading {
+#section-add .section__heading {
   display: block;
   margin: 0 0 20px;
 }
-/* input#new-task { */
-.task_new .task__input {
+#new-task {
+/* .task_new .task__input { */
   width: 318px;
 }
 
